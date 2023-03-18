@@ -1,0 +1,38 @@
+
+Ravi kant@LAPTOP-Q5R6NUJV MINGW64 ~/Desktop/TASK (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Day2-15-March-2023/Task14.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ravi kant@LAPTOP-Q5R6NUJV MINGW64 ~/Desktop/TASK (master)
+$ git add -A
+warning: in the working copy of 'Day2-15-March-2023/Task14.sh', LF will be replaced by CRLF the next time Git touches it
+
+Ravi kant@LAPTOP-Q5R6NUJV MINGW64 ~/Desktop/TASK (master)
+$ git commit -m "slight change"
+[master e3c351e] slight change
+ 1 file changed, 1 deletion(-)
+
+Ravi kant@LAPTOP-Q5R6NUJV MINGW64 ~/Desktop/TASK (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 352 bytes | 352.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/ravikanthit/zemoso_Task.git
+   ff745ab..e3c351e  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Ravi kant@LAPTOP-Q5R6NUJV MINGW64 ~/Desktop/TASK (master)
+$
+
